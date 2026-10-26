@@ -1,9 +1,9 @@
 Name,Value,Description
-test1,<img src=x onerror=alert(1)>,img onerror
-test2,<svg onload=alert(2)>,svg onload
-test3,<a href="javascript:alert(3)">click</a>,javascript href
-test4,"<script>alert(4)</script>",script tag
-test5,<iframe src="javascript:alert(5)">,iframe
-test6,<details open ontoggle=alert(6)>,details ontoggle
-test7,<input onfocus=alert(7) autofocus>,input autofocus
-test8,<marquee onstart=alert(8)>,marquee onstart
+test1,"<img src=x onerror=alert(1)>",img onerror
+test2,"<svg onload=alert(2)>",svg onload
+test3,"<details open ontoggle=alert(6)>test</details>",details ontoggle
+test4,"<input onfocus=alert(7) autofocus>",input autofocus
+test5,"<marquee onstart=alert(8)>test</marquee>",marquee onstart
+test6,"<a href=""javascript:alert(3)"">click</a>",javascript href
+test7,"<iframe srcdoc=""<script>alert(9)</script>"">",iframe srcdoc
+test8,"<math><mtext><table><mglyph><style><!--</style><img src=x onerror=alert(10)>",math mtext bypass
