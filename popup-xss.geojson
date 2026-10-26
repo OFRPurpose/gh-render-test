@@ -1,0 +1,29 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "<img src=x onerror=alert(1)>",
+        "description": "<script>alert(2)</script>",
+        "popupContent": "<a href=javascript:alert(3)>click</a>",
+        "title": "test\"onmouseover=alert(4) data-x=\""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.4194, 37.7749]
+      }
+    },
+    {
+      "type": "Feature", 
+      "properties": {
+        "name": "Normal marker",
+        "description": "This is just a normal point"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.9857, 40.7484]
+      }
+    }
+  ]
+}
