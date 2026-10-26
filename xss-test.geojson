@@ -1,0 +1,1 @@
+{"type":"FeatureCollection","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[-73.9857,40.7484]},"properties":{"name":"Test Location","description":"<img src=x onerror=alert(document.domain)>","title":"XSS Test"}}]}
